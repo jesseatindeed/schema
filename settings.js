@@ -9,9 +9,7 @@ require('./configValidation').validate(peliasConfig.generate());
 
 var moduleDir = require('path').dirname("../");
 
-function generate(){
-  var config = peliasConfig.generate().export();
-
+function generate(config) {
   // Default settings
   var settings = {
     "analysis": {

@@ -1,4 +1,4 @@
-module.exports = function(settings) {
+module.exports = function(config) {
 
 var admin = require('./partial/admin');
 var postalcode = require('./partial/postalcode');
@@ -112,7 +112,7 @@ return {
     },
 
     // geography
-    center_point: require('./partial/centroid')(settings),
+    center_point: require('./partial/centroid')(config),
     shape: require('./partial/shape'),
     bounding_box: require('./partial/boundingbox'),
 
