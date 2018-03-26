@@ -16,36 +16,9 @@ module.exports.tests.compile = function(test, common) {
 // dynamic_template and to avoid 'type not found' errors when deploying
 // the api codebase against an index without admin data
 module.exports.tests.indeces = function(test, common) {
-  test('contains "_default_" index definition', function(t) {
-    t.equal(typeof schema.mappings._default_, 'object', 'mappings present');
-    t.equal(schema.mappings._default_.dynamic_templates[0].nameGram.mapping.analyzer, 'peliasIndexOneEdgeGram');
-    t.end();
-  });
-  test('explicitly specify some admin indeces and their analyzer', function(t) {
-    t.equal(typeof schema.mappings.country, 'object', 'mappings present');
-    t.equal(schema.mappings.country.dynamic_templates[0].nameGram.mapping.analyzer, 'peliasIndexOneEdgeGram');
-    t.equal(typeof schema.mappings.region, 'object', 'mappings present');
-    t.equal(schema.mappings.region.dynamic_templates[0].nameGram.mapping.analyzer, 'peliasIndexOneEdgeGram');
-    t.equal(typeof schema.mappings.county, 'object', 'mappings present');
-    t.equal(schema.mappings.county.dynamic_templates[0].nameGram.mapping.analyzer, 'peliasIndexOneEdgeGram');
-    t.end();
-  });
-};
-
-// some 'admin' types allow single edgeNGrams and so have a different dynamic_template
-module.exports.tests.dynamic_templates = function(test, common) {
-  test('dynamic_templates: nameGram', function(t) {
-    t.equal(typeof schema.mappings.country.dynamic_templates[0].nameGram, 'object', 'nameGram template specified');
-    var template = schema.mappings.country.dynamic_templates[0].nameGram;
-    t.equal(template.path_match, 'name.*');
-    t.equal(template.match_mapping_type, 'string');
-    t.deepEqual(template.mapping, {
-      type: 'string',
-      analyzer: 'peliasIndexOneEdgeGram',
-      fielddata: {
-        loading: 'eager_global_ordinals'
-      }
-    });
+  test('contains "record" type definition', function(t) {
+    t.equal(typeof schema.mappings.record, 'object', 'mappings present');
+    t.equal(schema.mappings.record.dynamic_templates[0].nameGram.mapping.analyzer, 'peliasIndexOneEdgeGram');
     t.end();
   });
 };
