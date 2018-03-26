@@ -1,6 +1,5 @@
 var path = require('path'),
-    schema = require('../'),
-    fixture = require('./fixtures/expected.json');
+    schema = require('../');
 
 module.exports.tests = {};
 
@@ -19,27 +18,6 @@ module.exports.tests.indeces = function(test, common) {
   test('contains "record" type definition', function(t) {
     t.equal(typeof schema.mappings.record, 'object', 'mappings present');
     t.equal(schema.mappings.record.dynamic_templates[0].nameGram.mapping.analyzer, 'peliasIndexOneEdgeGram');
-    t.end();
-  });
-};
-
-// current schema (compiled) - requires schema to be copied and settings to
-// be regenerated from a fixture in order to pass in CI environments.
-module.exports.tests.current_schema = function(test, common) {
-  test('current schema vs. fixture', function(t) {
-
-    // copy schema
-    var schemaCopy = JSON.parse( JSON.stringify( schema ) );
-
-    // use the pelias config fixture instead of the local config
-    process.env.PELIAS_CONFIG = path.resolve( __dirname + '/fixtures/config.json' );
-    schemaCopy.settings = require('../settings')();
-    delete process.env.PELIAS_CONFIG;
-
-    // code intentionally commented to allow quick debugging of expected.json
-    // common.diff(schemaCopy, fixture);
-
-    t.deepEqual(schemaCopy, fixture);
     t.end();
   });
 };
