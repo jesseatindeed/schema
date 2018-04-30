@@ -50,27 +50,6 @@ module.exports.tests.dynamic_templates = function(test, common) {
   });
 };
 
-// current schema (compiled) - requires schema to be copied and settings to
-// be regenerated from a fixture in order to pass in CI environments.
-module.exports.tests.current_schema = function(test, common) {
-  test('current schema vs. fixture', function(t) {
-
-    // copy schema
-    var schemaCopy = JSON.parse( JSON.stringify( schema ) );
-
-    // use the pelias config fixture instead of the local config
-    process.env.PELIAS_CONFIG = path.resolve( __dirname + '/fixtures/config.json' );
-    schemaCopy.settings = require('../settings')();
-    delete process.env.PELIAS_CONFIG;
-
-    // code intentionally commented to allow quick debugging of expected.json
-    // common.diff(schemaCopy, fixture);
-
-    t.deepEqual(schemaCopy, fixture);
-    t.end();
-  });
-};
-
 module.exports.all = function (tape, common) {
 
   function test(name, testFunction) {
