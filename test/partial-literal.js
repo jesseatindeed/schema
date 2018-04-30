@@ -28,7 +28,15 @@ module.exports.tests.store = function(test, common) {
 // do not perform analysis on categories
 module.exports.tests.analysis = function(test, common) {
   test('index analysis', function(t) {
-    t.equal(schema.analyzer, 'keyword', 'should be keyword');
+    t.equal(schema.analyzer, undefined, 'should be undefined, as this field is not indexed');
+    t.end();
+  });
+};
+
+// do not index at all
+module.exports.tests.analysis = function(test, common) {
+  test('index setting', function(t) {
+    t.equal(schema.index, 'no', 'this field is not indexed');
     t.end();
   });
 };

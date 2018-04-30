@@ -115,7 +115,6 @@ module.exports.tests.parent_analysis = function(test, common) {
       t.equal(prop[field+'_a'].type, 'string');
       t.equal(prop[field+'_a'].analyzer, 'peliasAdmin');
       t.equal(prop[field+'_id'].type, 'string');
-      t.equal(prop[field+'_id'].analyzer, 'keyword');
 
       t.end();
     });
@@ -127,7 +126,6 @@ module.exports.tests.parent_analysis = function(test, common) {
     t.equal(prop['postalcode'+'_a'].type, 'string');
     t.equal(prop['postalcode'+'_a'].analyzer, 'peliasZip');
     t.equal(prop['postalcode'+'_id'].type, 'string');
-    t.equal(prop['postalcode'+'_id'].analyzer, 'keyword');
 
     t.end();
   });
