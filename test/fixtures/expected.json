@@ -729,6 +729,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -1026,6 +1041,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -1323,6 +1353,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -1620,6 +1665,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -1917,6 +1977,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -2214,6 +2289,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -2511,6 +2601,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -2808,6 +2913,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -3105,6 +3225,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -3402,6 +3537,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -3699,6 +3849,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -3996,6 +4161,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -4293,6 +4473,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -4590,6 +4785,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
@@ -4887,6 +5097,21 @@
           "type": "object",
           "dynamic": true,
           "properties": {
+            "continent": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_a": {
+              "type": "string",
+              "analyzer": "peliasAdmin",
+              "store": "yes"
+            },
+            "continent_id": {
+              "type": "string",
+              "analyzer": "keyword",
+              "store": "yes"
+            },
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
