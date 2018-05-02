@@ -1781,7 +1781,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -1795,7 +1795,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -2156,7 +2156,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -2170,7 +2170,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -2531,7 +2531,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -2545,7 +2545,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -2906,7 +2906,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -2920,7 +2920,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -3281,7 +3281,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -3295,7 +3295,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -3656,7 +3656,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -3670,7 +3670,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -4031,7 +4031,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -4045,7 +4045,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -4406,7 +4406,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -4420,7 +4420,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -4781,7 +4781,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -4795,7 +4795,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -5156,7 +5156,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -5170,7 +5170,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -5531,7 +5531,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -5545,7 +5545,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -5906,7 +5906,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -5920,7 +5920,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -6281,7 +6281,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -6295,7 +6295,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -6656,7 +6656,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -6670,7 +6670,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -7031,7 +7031,7 @@
               "analyzer": "peliasIndexOneEdgeGram",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }
@@ -7045,7 +7045,7 @@
               "analyzer": "peliasPhrase",
               "norms": { "enabled": false },
               "fielddata": {
-                "loading": "eager_global_ordinals"
+                "format": "disabled"
               }
             }
           }

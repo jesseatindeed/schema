@@ -155,7 +155,7 @@ module.exports.tests.dynamic_templates = function(test, common) {
       analyzer: 'peliasIndexOneEdgeGram',
       norms: { enabled: false },
       fielddata : {
-        loading: 'eager_global_ordinals'
+        format: "disabled"
       }
     });
     t.end();
@@ -170,7 +170,7 @@ module.exports.tests.dynamic_templates = function(test, common) {
       analyzer: 'peliasPhrase',
       norms: { enabled: false },
       fielddata : {
-        loading: 'eager_global_ordinals'
+        format: "disabled"
       }
     });
     t.end();

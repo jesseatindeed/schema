@@ -144,7 +144,7 @@ var schema = {
         analyzer: 'peliasIndexOneEdgeGram',
         norms: { enabled: false },
         fielddata : {
-          loading: 'eager_global_ordinals'
+          format: "disabled"
         }
       }
     },
@@ -157,7 +157,7 @@ var schema = {
         analyzer: 'peliasPhrase',
         norms: { enabled: false },
         fielddata : {
-          loading: 'eager_global_ordinals'
+          format: "disabled"
         }
       }
     }
