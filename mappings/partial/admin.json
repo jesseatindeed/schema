@@ -1,5 +1,5 @@
 {
   "type": "string",
   "analyzer": "peliasAdmin",
-  "store": "yes"
+  "store": "no"
 }

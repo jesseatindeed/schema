@@ -689,7 +689,7 @@
         "alpha3": {
           "type": "string",
           "analyzer": "peliasAdmin",
-          "store": "yes"
+          "store": "no"
         },
         "name": {
           "type": "object",
@@ -732,12 +732,12 @@
             "continent": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "continent_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "continent_id": {
               "type": "string",
@@ -747,12 +747,12 @@
             "country": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "country_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "country_id": {
               "type": "string",
@@ -762,12 +762,12 @@
             "dependency": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "dependency_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "dependency_id": {
               "type": "string",
@@ -777,12 +777,12 @@
             "macroregion": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "macroregion_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "macroregion_id": {
               "type": "string",
@@ -792,12 +792,12 @@
             "region": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "region_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "region_id": {
               "type": "string",
@@ -807,12 +807,12 @@
             "macrocounty": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "macrocounty_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "macrocounty_id": {
               "type": "string",
@@ -822,12 +822,12 @@
             "county": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "county_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "county_id": {
               "type": "string",
@@ -837,12 +837,12 @@
             "locality": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "locality_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "locality_id": {
               "type": "string",
@@ -852,12 +852,12 @@
             "borough": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "borough_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "borough_id": {
               "type": "string",
@@ -867,12 +867,12 @@
             "localadmin": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "localadmin_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "localadmin_id": {
               "type": "string",
@@ -882,12 +882,12 @@
             "neighbourhood": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "neighbourhood_a": {
               "type": "string",
               "analyzer": "peliasAdmin",
-              "store": "yes"
+              "store": "no"
             },
             "neighbourhood_id": {
               "type": "string",

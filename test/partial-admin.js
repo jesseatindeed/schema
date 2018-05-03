@@ -19,8 +19,8 @@ module.exports.tests.type = function(test, common) {
 };
 
 module.exports.tests.store = function(test, common) {
-  test('store enabled', function(t) {
-    t.equal(schema.store, 'yes', 'correct value');
+  test('store disabled now that we have placeholder', function(t) {
+    t.equal(schema.store, 'no', 'correct value');
     t.end();
   });
 };
