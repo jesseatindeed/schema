@@ -33,14 +33,14 @@
   },
   "dependencies": {
     "colors": "^1.1.2",
-    "elasticsearch": "^15.0.0",
+    "elasticsearch": "^15.1.1",
     "joi": "^13.1.0",
     "lodash.merge": "^4.6.0",
-    "pelias-config": "^3.0.2"
+    "pelias-config": "^3.5.0"
   },
   "devDependencies": {
     "difflet": "^1.0.1",
-    "elastictest": "^1.2.0",
+    "elastictest": "^2.0.0",
     "proxyquire": "^2.0.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.5.0"

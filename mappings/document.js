@@ -1,8 +1,9 @@
-var admin = require('./partial/admin');
-var postalcode = require('./partial/postalcode');
-var hash = require('./partial/hash');
-var multiplier = require('./partial/multiplier');
-var literal = require('./partial/literal');
+const admin = require('./partial/admin');
+const postalcode = require('./partial/postalcode');
+const hash = require('./partial/hash');
+const multiplier = require('./partial/multiplier');
+const literal = require('./partial/literal');
+const config = require('pelias-config').generate();
 
 var schema = {
   properties: {
@@ -26,22 +27,27 @@ var schema = {
         name: {
           type: 'string',
           analyzer: 'keyword',
+          norms: { enabled: false }
         },
         unit: {
           type: 'string',
           analyzer: 'peliasUnit',
+          norms: { enabled: false }
         },
         number: {
           type: 'string',
           analyzer: 'peliasHousenumber',
+          norms: { enabled: false }
         },
         street: {
           type: 'string',
           analyzer: 'peliasStreet',
+          norms: { enabled: false }
         },
         zip: {
           type: 'string',
           analyzer: 'peliasZip',
+          norms: { enabled: false }
         }
       }
     },
@@ -136,6 +142,7 @@ var schema = {
       mapping: {
         type: 'string',
         analyzer: 'peliasIndexOneEdgeGram',
+        norms: { enabled: false },
         fielddata : {
           loading: 'eager_global_ordinals'
         }
@@ -148,6 +155,7 @@ var schema = {
       mapping: {
         type: 'string',
         analyzer: 'peliasPhrase',
+        norms: { enabled: false },
         fielddata : {
           loading: 'eager_global_ordinals'
         }
